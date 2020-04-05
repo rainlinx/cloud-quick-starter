@@ -1,2 +1,2 @@
 # cloud-quick-starter
-Help you building a spring cloud project quickly and easily
+Help you build a spring cloud project quickly and easily
