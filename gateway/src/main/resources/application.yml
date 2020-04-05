@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: gateway
+server:
+  port: 8080
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      default-zone: http://localhost:8761/eureka
+zuul:
+  sensitive-headers:
+cloud:
+  token:
+    key: test
+    expiration: 30
